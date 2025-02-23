@@ -34,7 +34,7 @@ background: url(../img/center-img.png) no-repeat center top / cover;
 padding: 60px 0 45px;
 }
 .fb{
-background-image: url(/img/sprayt-foto.png);
+background-image: url(img/sprayt-foto.png);
 display: inline-block;
 z-index: 1;
 width: 10px;
@@ -46,7 +46,7 @@ transition: all 1s ease;
 background-position: 0 -21px;
 }
 .tw{
-background-image: url(/img/sprayt-foto.png);
+background-image: url(img/sprayt-foto.png);
 display: inline-block;
 z-index: 1;
 width: 18px;
@@ -58,7 +58,7 @@ transition: all 1s ease;
 background-position: -12px -22px ;
 }
 .inst{
-background-image: url(/img/sprayt-foto.png);
+background-image: url(img/sprayt-foto.png);
 width: 19px;
 height: 19px;
 z-index: 1;
