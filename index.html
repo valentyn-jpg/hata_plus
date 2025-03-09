@@ -15,6 +15,8 @@
     <div class="header-top">
         <div class="wrapper flex">
             <nav>
+                <div class="burger">
+                </div>
                 <ul class="lolpop">
                     <li>Головна</li>
                     <li>Про компанію</li>
@@ -155,5 +157,14 @@
         <p>&copy Будівельна компанія “Хата Плюс” 2018.</p>
     </div>
 </footer>
+
+<script>
+    let burger = document.querySelector(".burger")
+    burger.onclick = () => {
+        let menu = document.querySelector(".lolpop")
+        menu.classList.toggle("lolpop-open")
+        burger.classList.toggle("burger-close")
+    }
+</script>
 </body>
 </html>
