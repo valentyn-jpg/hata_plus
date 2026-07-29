@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<title>Хата Плюс</title>
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="wrapper flex">
+            <nav>
+                <div class="burger">
+                </div>
+                <ul class="lolpop">
+                    <li>Головна</li>
+                    <li>Про компанію</li>
+                    <li>Наші будівлі</li>
+                    <li>Акції</li>
+                    <li>Контакти</li>
+                </ul>
+            </nav>
+            <div>
+                <ul class="social">
+                    <li><a class="fb" href="https://www.facebook.com"></a></li>
+                    <li><a class="tw" href="https://twitter.com/?lang=uk"></a></li>
+                    <li><a class="inst" href="https://www.instagram.com"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="header-main">
+            <div class="fer">
+                <img src="img/logo.webp" alt="">
+            </div>
+            <div class="phone">
+            <p><a class="tel" href="tel:+380971002525">+38(097) 100-25-25</a></p>
+            <p><a class="tell" href="tel:+380971002525">+38(097) 100-25-25</a></p>
+            </div>
+            <div class="mail">
+                <p><a class="ma" href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></p>
+                <p><a class="skype" href="skype:hataplus">hataplus</a></p>
+            </div>
+            <div class="bottom"> 
+                <a class="oval-button" href="#">Замовити дзвінок</a>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="wrapperd consult">
+            <div>
+                <h2>Контакти</h2>
+                <p>Наш офіс</p>
+                <p>с. Війтівці, Хмельницька обл. 27500</p>
+                <p>+38(097) 100-25-25</p>
+                <p>+38(097) 100-25-25</p>
+                <a href="#">hataplus@hata.com.ua</a>
+            </div>
+            <div>
+                <h2>Консультація</h2>
+                <p>менеджер:</p>
+                <p>+38(067) 123-10-05</p>
+                <p>директор:</p>
+                <p>+38(068) 950-27-91</p>
+            </div>
+            <div>
+                <h2>Реквізити</h2>
+                <p>ЄДРПОУ 60045123, ІПН 991097555173
+                    Св.№59904423</p>
+                <p>Р/р 11137539962221,
+                    Банк ХФ ПАТ КБ «ПРИВАТБАНК»</p>
+            </div>
+        </div>
+    </section>
+    <section class="box"  >
+        <div class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1clG6WikjE4HtGZ-_Sf_RIp68j-PLv5U&ehbc=2E312F" width="466" height="390"></iframe>
+        </div>
+        <form action="#">
+
+            <div class="input">
+                <h2>Форма зворотнього зв’язку</h2>
+                <div class="xform">
+                    <input type="text" placeholder="Ваше ім’я" >
+                    <input type="text"  placeholder="Телефон">
+                </div>
+                
+                <input type="text"  placeholder="Тема повідомлення">
+                <textarea name="messege" id="messege"  placeholder="Текст"></textarea>
+                <input type="submit" class="oval-button" value="send"  id="send">
+            </div>
+        </form>
+    </section>
+    </div>
+        <hr>
+<footer>
+    <div class="footer-top">
+        <div class="wrapper">
+            <div class="row flex">
+                <ul>
+                    <li><a href="">Будинки</a></li>
+                    <li><a href="">Інфраструктура</a></li>
+                    <li><a href="">Сервіс</a></li>
+                    <li><a href="">Новини</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Про компанію</a></li>
+                    <li><a href="">Страхування</a></li>
+                    <li><a href="">Контакти</a></li>
+                </ul>
+                <div class="phone">
+                    <p><a class="tel" href="tel:+380971002525">+38(097) 100-25-25</a></p>
+                    <p><a class="tell" href="tel:+380971002525">+38(097) 100-25-25</a></p>
+                    </div>
+                    <div class="mail">
+                        <p><a class="ma" href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></p>
+                        <p><a class="skype" href="skype:hataplus">hataplus</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy Будівельна компанія “Хата Плюс” 2018.</p>
+    </div>
+</footer>
+
+<script>
+    let burger = document.querySelector(".burger")
+    burger.onclick = () => {
+        let menu = document.querySelector(".lolpop")
+        menu.classList.toggle("lolpop-open")
+        burger.classList.toggle("burger-close")
+    }
+</script>
+</body>
+</html>
