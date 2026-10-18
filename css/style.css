@@ -520,6 +520,12 @@ footer a{
 .lolpop{
     display: block;
 }
+.lolpop a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Arial";
+}
 .lolpop-open{
     width: auto;
     position: absolute;
